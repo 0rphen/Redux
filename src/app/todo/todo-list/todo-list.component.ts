@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { AppState } from 'src/app/app.reducer';
 import { filtrosValidos } from 'src/app/filter/filter.actions';
+import { Todo } from '../model/todo.model';
 
 
 @Component({
